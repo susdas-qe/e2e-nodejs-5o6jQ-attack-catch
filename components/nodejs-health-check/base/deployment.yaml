@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: nodejs-health-check
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/susdas_quay_org/e2e-demos-tgnk-tenant/e2e-nodejs/nodejs-health-check@sha256:d83ed9f1090f10696c167bf2257aa31789f2531f45bd35be03641aec6efb4af6
         name: my-nodejs
         ports:
         - containerPort: 3001
